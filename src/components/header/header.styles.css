@@ -1,0 +1,44 @@
+/* Container do header */
+.header-container {
+    width: 100%; /* Ocupar 100% da largura */
+    background-color: #212529; /* Cor de fundo */
+    display: flex; /* Usar flexbox para layout */
+    justify-content: space-between; /* Espaçamento entre os itens */
+    align-items: center; /* Alinhar itens verticalmente ao centro */
+    padding: 10px 20px; /* Espaçamento interno */
+    color: #f8f9fa;
+}
+
+/* Título do header */
+.header-title {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
+/* Container dos itens do header */
+.header-items {
+    display: flex; /* Usar flexbox para layout */
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo para cada item do header */
+.header-item {
+   font-weight: 600;
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+
+}
+
+
+/* Estilo para o ícone do carrinho */
+.header-item .cart-icon {
+    margin-left: 10px; /* Espaçamento à esquerda do número */
+}
+
+.header-item:nth-child(1),
+.header-item:nth-child(2),
+.header-item:nth-child(3){
+    margin-right: 40px;
+}
