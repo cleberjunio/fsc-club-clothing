@@ -13,6 +13,7 @@ const Header= () =>{
           <div className="header-item">Criar Conta</div>
           <div className="header-item">           
            <RiShoppingCart2Line size={25}/>
+           <p style={{padding: 3}}>5</p>
           </div>
         </div>     
     </div>
